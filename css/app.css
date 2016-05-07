@@ -1,5 +1,12 @@
-body {
-  font-family: 'Roboto', sans-serif; }
+.bg-white {
+  background: white; }
+
+h1 {
+  font-family: 'Raleway', sans-serif; }
+
+.text-uppercase {
+  letter-spacing: .05em;
+  font-family: 'Raleway', sans-serif; }
 
 /*!
  * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
@@ -4737,6 +4744,21 @@ a.bg-danger:focus, a.bg-danger:hover {
       background-color: rgba(255, 255, 255, 0.5);
       border-color: #656565; }
 
+.btn-cta {
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0px;
+  transition: .5s ease-in-out;
+  -moz-transition: .5 ease-in-out;
+  -ms-transition: .5 ease-in-out;
+  -webkit-transition: .5 ease-in-out;
+  -o-transition: .5 ease-in-out; }
+  .btn-cta:hover {
+    background: white;
+    color: black;
+    border: 2px solid white; }
+
 .login-cluster {
   background: white; }
 
@@ -5089,132 +5111,58 @@ a.bg-danger:focus, a.bg-danger:hover {
 @media (min-width: 1200px) {
   .tp-xl-in-7 {
     font-size: 112px; } }
-@media screen and (max-width: 767px) {
-  .jumbotron-home {
-    margin-top: 145.83333px; } }
-@media screen and (max-width: 991px) {
-  .jumbotron-home {
-    margin-top: 177.08333; } }
-@media screen and (max-width: 1199px) {
-  .jumbotron-home {
-    margin-top: 20.83333vh; } }
-@media screen and (min-width: 1200px) {
-  .jumbotron-home {
-    margin-top: 20.83333vh; } }
-@media screen and (max-width: 600px) {
-  .jumbotron-home {
-    margin-top: 145.83333px; } }
+.navbar-general {
+  background: white; }
 
-@media screen and (max-width: 767px) {
-  .jumbotron-minimal {
-    margin-top: 0px; } }
-@media screen and (max-width: 991px) {
-  .jumbotron-minimal {
-    margin-top: 0; } }
-@media screen and (max-width: 1199px) {
-  .jumbotron-minimal {
-    margin-top: 0vh; } }
-@media screen and (min-width: 1200px) {
-  .jumbotron-minimal {
-    margin-top: 18.33333vh; } }
-@media screen and (max-width: 600px) {
-  .jumbotron-minimal {
-    margin-top: 128.33333px; } }
+.jumbotron-home {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white; }
 
-@media screen and (max-width: 767px) {
-  .jumbotron-minimal-small {
-    margin-top: 0px; } }
-@media screen and (max-width: 991px) {
-  .jumbotron-minimal-small {
-    margin-top: 0; } }
-@media screen and (max-width: 1199px) {
-  .jumbotron-minimal-small {
-    margin-top: 0vh; } }
-@media screen and (min-width: 1200px) {
-  .jumbotron-minimal-small {
-    margin-top: 21.66667vh; } }
-@media screen and (max-width: 600px) {
-  .jumbotron-minimal-small {
-    margin-top: 151.66667px; } }
+.jumbotron-minimal {
+  background-color: rgba(0, 0, 0, 0.9); }
 
-@media screen and (max-width: 767px) {
-  .jumbotron-minimal-forms {
-    margin-top: -43.75px; } }
-@media screen and (max-width: 991px) {
-  .jumbotron-minimal-forms {
-    margin-top: -53.125; } }
-@media screen and (max-width: 1199px) {
-  .jumbotron-minimal-forms {
-    margin-top: -6.25vh; } }
-@media screen and (min-width: 1200px) {
-  .jumbotron-minimal-forms {
-    margin-top: 10.41667vh; } }
-@media screen and (max-width: 600px) {
-  .jumbotron-minimal-forms {
-    margin-top: 72.91667px; } }
+.jumbotron-minimal-small {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9); }
 
-@media screen and (max-width: 1199px) {
-  .home-page-content {
-    min-height: 85vh; } }
-@media screen and (min-width: 1200px) {
-  .home-page-content {
-    min-height: 85vh; } }
-@media screen and (max-width: 600px) {
-  .home-page-content {
-    min-height: 595px; } }
-@media screen and (max-width: 767px) {
-  .home-page-content {
-    min-height: 175px; } }
-@media screen and (max-width: 991px) {
-  .home-page-content {
-    min-height: 212.5; } }
+.jumbotron-minimal-forms {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.95); }
 
-@media screen and (max-width: 1199px) {
-  .about-page-content {
-    min-height: 85.83333vh; } }
-@media screen and (min-width: 1200px) {
-  .about-page-content {
-    min-height: 85.83333vh; } }
-@media screen and (max-width: 600px) {
-  .about-page-content {
-    min-height: 600.83333px; } }
-@media screen and (max-width: 767px) {
-  .about-page-content {
-    min-height: 466.66667px; } }
-@media screen and (max-width: 991px) {
-  .about-page-content {
-    min-height: 566.66667; } }
+.home-page-content {
+  background: url("../img/asset-library.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover; }
 
-@media screen and (max-width: 1199px) {
-  .about-page-cta {
-    min-height: 85.83333vh; } }
-@media screen and (min-width: 1200px) {
-  .about-page-cta {
-    min-height: 85.83333vh; } }
-@media screen and (max-width: 600px) {
-  .about-page-cta {
-    min-height: 600.83333px; } }
-@media screen and (max-width: 767px) {
-  .about-page-cta {
-    min-height: 291.66667px; } }
-@media screen and (max-width: 991px) {
-  .about-page-cta {
-    min-height: 354.16667; } }
+.left-picture {
+  background: url("../img/asset-desk.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover; }
 
-@media screen and (max-width: 1199px) {
-  .contact-page-cta {
-    min-height: 85.83333vh; } }
-@media screen and (min-width: 1200px) {
-  .contact-page-cta {
-    min-height: 85.83333vh; } }
-@media screen and (max-width: 600px) {
-  .contact-page-cta {
-    min-height: 600.83333px; } }
-@media screen and (max-width: 767px) {
-  .contact-page-cta {
-    min-height: 408.33333px; } }
-@media screen and (max-width: 991px) {
-  .contact-page-cta {
-    min-height: 495.83333; } }
+.right-content {
+  padding-left: 0;
+  padding-right: 0; }
+
+.about-cta-background {
+  background: url("../img/asset-accounting.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover; }
+
+.contact-content {
+  background: url("../img/asset-blocks.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover; }
 
 /*# sourceMappingURL=app.css.map */

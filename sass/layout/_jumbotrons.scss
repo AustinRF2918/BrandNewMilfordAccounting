@@ -1,19 +1,28 @@
+body{
+
+}
+
 .jumbotron-home
 {
-    @include top-generate-mass(2.5, $phoneOffset: 0, $tabletOffset: 0, $desktopOffset: 0, $hugeOffset:0, $lowHeightOffset: 0)
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
 .jumbotron-minimal
 {
-    @include top-generate-mass(2.2, $phoneOffset: 2.2, $tabletOffset: 2.2, $desktopOffset: 2.2, $hugeOffset:0, $lowHeightOffset: 0)
+    background-color: rgba(0, 0, 0, 0.9);
 }
+
+
 
 .jumbotron-minimal-small
 {
-    @include top-generate-mass(2.6, $phoneOffset: 2.6, $tabletOffset: 2.6, $desktopOffset: 2.6, $hugeOffset:0, $lowHeightOffset: 0)
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .jumbotron-minimal-forms
 {
-    @include top-generate-mass(1.25, $phoneOffset: 2, $tabletOffset: 2, $desktopOffset: 2, $hugeOffset: 0, $lowHeightOffset: 0)
+    color: white;
+    background-color: rgba(0, 0, 0, 0.95);
 }
